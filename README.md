@@ -1,24 +1,60 @@
-# Exact Screenshot Replica
+# Avatar Creator
 
-Implement exactly the screenshot and nothing else
+> Crée ton avatar unique en toute simplicité.
 
-This project was built with [Lovable](https://lovable.dev).
+Un outil web moderne pour concevoir des icônes personnalisées, adaptées à ton style — pour tes profils, projets ou applications. Rapide, intuitif et créatif.
 
-## Build with Lovable
+---
 
-Continue developing this project in the [Lovable editor](https://lovable.dev/projects/f4513ac3-cab1-4ca5-915a-77703e4ea09c).
+## ✨ Fonctionnalités
 
-- **Ship faster**: describe what you want to build and Lovable handles the code.
-- **Stay in sync**: every change made in Lovable is committed straight to this repository.
-- **Full ownership**: this code is yours. Push to `main` on GitHub and your changes sync back into Lovable, ready for your next prompt.
+- **Personnalisation complète** — choisis les formes, couleurs et expressions pour un rendu unique
+- **Aperçu en temps réel** — visualise chaque modification instantanément
+- **Export prêt à l'emploi** — icônes adaptées aux profils, apps et projets
+- **Interface intuitive** — pas besoin de compétences en design
 
-## Development
+---
 
-Prefer working locally? You need Node.js and npm — [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating).
+## 🚀 Démarrage rapide
+
+Pré-requis : Node.js et npm — [installer avec nvm](https://github.com/nvm-sh/nvm#installing-and-updating).
 
 ```sh
 git clone <this-repository-url>
-cd <repository-name>
-npm i
+cd exact-screenshot-replica
+npm install
 npm run dev
 ```
+
+L'application est accessible sur `http://localhost:5173`.
+
+---
+
+## 🛠️ Stack technique
+
+| Outil | Rôle |
+|---|---|
+| [React](https://react.dev) + [TypeScript](https://www.typescriptlang.org) | UI et typage |
+| [Vite](https://vitejs.dev) | Bundler et dev server |
+| [Tailwind CSS](https://tailwindcss.com) | Styles utilitaires |
+| [shadcn/ui](https://ui.shadcn.com) | Composants UI |
+
+---
+
+## 📁 Structure du projet
+
+```
+src/
+├── assets/          # Images et ressources statiques
+├── components/
+│   ├── bloub/       # Composants avatar (formes, expressions)
+│   └── ui/          # Composants UI génériques (shadcn)
+├── lib/             # Logique métier (couleurs, formes, humeurs)
+└── routes/          # Pages de l'application
+```
+
+---
+
+## 📜 Licence
+
+Ce code t'appartient — libre à toi de le modifier, déployer et partager.
